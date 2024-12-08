@@ -76,10 +76,17 @@ Placing a variable with an underscore means it is meant to be private
 #     def pop(self):
 #         return self._data.pop()
     
+#     def peek(self):
+#         return self._data[-1]
+    
 # stack1 = Stack()
 # stack1.push(10)
 # stack1.push(20)
 # stack1.push(30)
+
+# elementPeek = stack1.peek()
+# print(elementPeek)
+
 # element = stack1.pop()
 
 # print(element)
