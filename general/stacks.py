@@ -38,7 +38,7 @@ To fix this, try and from collections import deque
 '''
 
 
-    # Simple append and pop(0) in a queue
+#    # Simple append and pop(0) in a queue
 # stackList = []
 # stackList.append(5)
 # stackList.append(10)
@@ -49,15 +49,14 @@ To fix this, try and from collections import deque
 # print(f'The stackList is {stackList} and the popped element is {element}')
 
 
-    # Avoids having to move the entire list if something is popped at position 0
+#    # Avoids having to move the entire list if something is popped at position 0
 # from collections import deque
 # data = deque('123512416243')
 
 # data.append('5')
-# # data.popleft
+# data.popleft
 
 # print(list(data))
-
 
 # CUSTOM STACK AND QUEUE CLASSES -----------------------------------------------------------------
 '''

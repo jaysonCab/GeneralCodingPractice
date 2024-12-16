@@ -7,3 +7,12 @@ Stacks and Queues
 Leetcode 14
 
 Do more research on Hashmaps
+Learn more about cores and threading
+
+
+December 15th: 
+Writing custom scripts on terminal 
+Wrote notes on it too
+
+leetcode 20 + 21 are new, try and learn those linked lists and ways to use dicitonaries
+
