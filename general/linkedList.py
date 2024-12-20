@@ -55,3 +55,22 @@ DELETE - O(1)
 # print(values)
 
 
+# ------------------------------------ DECEMBER 19th
+# class linkedListNode():
+
+#     def __init__(self, value, next = None):
+#         self.value = value
+#         self.next = next
+
+# node1 = linkedListNode(5)
+# node2 = linkedListNode(10)
+# node3 = linkedListNode(15)
+
+# origin = node1
+
+# node1.next = node2
+# node2.next = node3
+
+# while origin:
+#     print(origin.value)
+#     origin = origin.next
