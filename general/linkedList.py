@@ -74,3 +74,56 @@ DELETE - O(1)
 # while origin:
 #     print(origin.value)
 #     origin = origin.next
+
+# ---------------------------------------------------------------------
+# December 20th, 2024
+
+# class linkedListNode():
+#     def __init__(self, value, next = None):
+#         self.value = value
+#         self.next = next
+
+# node1 = linkedListNode(1)
+# node2 = linkedListNode(3)
+# node3 = linkedListNode(2)
+
+# currentNode = node1
+
+# node1.next = node2
+# node2.next = node3
+
+# newList = []
+
+# while currentNode:
+#     newList.append(currentNode.value)
+#     currentNode = currentNode.next
+
+# print(newList)
+
+# ----------------------------------------------------
+
+# class linkedListNode():
+
+#     def __init__(self, value, next = False):
+#         self.value = value
+#         self.next = next
+
+# node1 = linkedListNode(93)
+# node2 = linkedListNode(12)
+# node3 = linkedListNode(34)
+# node4 = linkedListNode('Chicken')
+
+# currentNode = node1
+# node1.next = node2
+# node2.next = node3
+# node3.next = node4
+
+# listing = []
+
+# while currentNode:
+#     listing.append(currentNode.value)
+#     currentNode = currentNode.next
+
+# print(listing)
+
+# ----------------------------------------------------
