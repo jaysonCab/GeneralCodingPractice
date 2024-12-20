@@ -51,3 +51,59 @@
 
 # print(indexValue)
 # print(listing[indexValue])
+
+# -----------------------------------------------------------------------------------
+
+# def binarySearch(array, target):
+#     left = 0
+#     right = len(array) - 1
+
+#     while left < right:
+#         midpoint = left + (right - left) // 2
+#         midpointValue = array[midpoint]
+
+#         if target < midpointValue:
+#             right = midpoint - 1
+        
+#         elif target > midpointValue:
+#             left = midpoint + 1
+
+#         elif target == midpointValue:
+#             return midpoint
+        
+        
+#     return -1
+
+
+# arrayCheck = [1,4,6,77,88,99,192,248]
+# nice = binarySearch(arrayCheck, 192)
+# print(arrayCheck[nice])
+# print(nice)
+
+# -------------------------------------------------------
+# December 20th, 2024
+
+# def binarySearch(array, target):
+#     left = 0
+#     right = len(array) - 1
+
+#     while left < right:
+#         midpoint = left + (right - left) // 2
+#         midpointValue = array[midpoint]
+
+#         if target == midpointValue:
+#             return midpoint
+        
+#         elif target < midpointValue:
+#             right = midpoint - 1
+
+#         else:
+#             left = midpoint + 1
+
+#     return -1
+
+# sortedList = [1,3,36,55,63,92,104]
+# target = 92
+# nice = binarySearch(sortedList, target)
+# print(nice)
+# print(sortedList[nice])

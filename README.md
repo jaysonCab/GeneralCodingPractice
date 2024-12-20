@@ -21,3 +21,10 @@ Array algorithms -->
 Binary search: Run time of O(log n), finds a position value in a sorted list or returns -1 if not found || Leetcode quesiton 35
 
 TOMORROW SEARCH QUESTION 35
+
+bubble sort
+selection sort
+insertion sort !
+merge sort !
+quick sort !
+heap sort
