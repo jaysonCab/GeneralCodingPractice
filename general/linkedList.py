@@ -127,3 +127,27 @@ DELETE - O(1)
 # print(listing)
 
 # ----------------------------------------------------
+
+# class LinkedListNode():
+#     def __init__(self, value, next = None):
+#         self.value = value
+#         self.next = next
+
+# node1 = LinkedListNode(1)
+# node2 = LinkedListNode(3)
+# node3 = LinkedListNode(5)
+
+# node1.next = node2
+# node2.next = node3
+
+# currentNode = node1
+# listing = []
+
+# while currentNode:
+#     listing.append(currentNode.value)
+#     currentNode = currentNode.next
+
+# print(listing)
+
+# -----------------------------------------------
+

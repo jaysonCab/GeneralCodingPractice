@@ -26,13 +26,15 @@ bubble sort
 selection sort
 insertion sort !
 merge sort !
-quick sort !
+quick sort 
 heap sort
 
         December 20th:
 Practiced more just creating linked list, merge sort, and binary sort
 Learning insertion sort
 
+Those 4 scripts, I feel okay about will try again tomorrow for sure
+I will try bubble sort to end the day off
 
 
 

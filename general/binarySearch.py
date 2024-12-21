@@ -130,10 +130,37 @@
 #     return -1
 
 # shink = [1,2,3,4,5,6,7,8,9,10]
-# glonk = 2
+# glonk = 9
 
 # nice = binarySearch(shink,glonk)
 # print(nice)
 # print(shink[nice])
 
 # --------------------------------------------------------------
+
+# def binarySearch(array, target):
+#     left = 0
+#     right = len(array) - 1
+
+#     while left < right:
+#         midpoint = left + (right - left) // 2
+#         midpointValue = array[midpoint]
+
+#         if target == midpointValue:
+#             return midpoint
+        
+#         elif target < midpoint:
+#             right = midpoint - 1
+        
+#         else:
+#             left = midpoint + 1
+    
+#     return -1
+
+# shink = [1,2,3,4,5,6,7,8,9,10]
+# glonk = 9
+# nice = binarySearch(shink,glonk)
+# print(nice)
+# print(shink[nice])
+
+# ------------------------------------------------------

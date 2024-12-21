@@ -37,31 +37,30 @@
 
 # ----------------------------------------------------------
 
-def insertionSort(array):
-    for i in range(1, len(array)):
-        j = i
+# def insertionSort(array):
+#     for i in range(1, len(array)):
+#         j = i
 
-        while array[j-1] > array[j] and j > 0:
-            array[j-1], array[j] = array[j], array[j-1]
-            j -= 1
+#         while array[j-1] > array[j] and j > 0:
+#             array[j-1], array[j] = array[j], array[j-1]
+#             j -= 1
     
-    return array
+#     return array
 
-print(insertionSort([5,4,2,67,8]))
+# print(insertionSort([5,4,2,67,8]))
 
+# ------------------------------------------------------------------
 
+# def insertionSort(array):
+#     for i in range(1, len(array)):
+#         j = i
 
+#         while array[j-1] > array[j] and j > 0:
+#             array[j-1], array[j] = array[j], array[j-1]
+#             j -= 1
 
+#     return array
 
+# print(insertionSort([5,4,2,67,8]))
 
-
-
-
-
-
-
-
-
-
-
-
+# ------------------------------------------------------------------
