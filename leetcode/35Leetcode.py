@@ -1,20 +1,30 @@
-# December 19th, 2024
-class Solution:
-    def searchInsert(self, nums: List[int], target: int) -> int:
-        beginIndex = 0
-        endIndex = len(nums) - 1
+# December 21st, 2024, O(n)
 
-        while beginIndex <= endIndex:
-            midpoint = beginIndex + (endIndex - beginIndex) // 2
-            midpointValue = nums[midpoint]
+# class Solution:
+#     def searchInsert(self, nums: List[int], target: int) -> int:
+#         for i in range(len(nums)):
+#             if target == nums[i] or target < nums[i]:
+#                 return i
+#         return len(nums)
+    
+# ---------------------------------------- I DIDN'T LEARN BINARY SEARCH FOR NO REASON
 
-            if midpointValue == target:
-                return midpoint
-            
-            elif target < midpoint:
-                endIndex = midpoint - 1
+# class Solution:
+#     def searchInsert(self, nums: List[int], target: int) -> int:
+#         left = 0
+#         right = len(nums) - 1
 
-            else:
-                beginIndex = midpoint + 1
+#         while left <= right:
+#             midpoint = left + (right - left) // 2
+#             midpointValue = nums[midpoint]
+
+#             if target == midpointValue:
+#                 return midpoint
+
+#             elif target < midpointValue:
+#                 right = midpoint - 1
+
+#             else:
+#                 left = midpoint + 1
         
-        return None
+#         return left

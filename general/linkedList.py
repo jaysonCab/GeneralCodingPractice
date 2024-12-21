@@ -150,4 +150,27 @@ DELETE - O(1)
 # print(listing)
 
 # -----------------------------------------------
+# December 21st, 2024
 
+# class LinedListNode():
+#     def __init__(self, value, next = None):
+#         self.value = value
+#         self.next = next
+
+# node1 = LinedListNode(1)
+# node2 = LinedListNode(3)
+# node3 = LinedListNode(6)
+
+# currentNode = node1
+
+# node1.next = node2
+# node2.next = node3
+# newList = []
+
+# while currentNode:
+#     newList.append(currentNode.value)
+#     currentNode = currentNode.next
+
+# print(newList)
+
+# ------------------------------------------------------------------------

@@ -23,7 +23,7 @@ Binary search: Run time of O(log n), finds a position value in a sorted list or 
 TOMORROW SEARCH QUESTION 35
 
 bubble sort
-selection sort
+selection sort !
 insertion sort !
 merge sort !
 quick sort 
@@ -34,9 +34,12 @@ Practiced more just creating linked list, merge sort, and binary sort
 Learning insertion sort
 
 Those 4 scripts, I feel okay about will try again tomorrow for sure
-I will try bubble sort to end the day off
+I will try selection sort to end the day off
 
-
+        December 21st:
+Practice the same algorithms as yesterday, maybe in late afternoon get back on leetcode I think I can start doing array quesitons on leetcode. At least 1 and I will be happy !
+Did question 35, that was simple. Goal is to complete one tomorrow as well.
+Bubble sort today, tomorrow Quicksort is my goal too.
 
 
 
@@ -49,3 +52,6 @@ Linked List
 
 Binary Search
 Merge Sort
+Selection Sort
+Insertion Sort
+Bubble Sort

@@ -64,3 +64,45 @@
 # print(insertionSort([5,4,2,67,8]))
 
 # ------------------------------------------------------------------
+# December 21st, 2024
+
+# def insertionSort(array):
+#     for i in range(1, len(array)):
+#         j = i
+
+#         while array[j-1] > array[j] and j > 0:
+#             array[j-1], array[j] = array[j], array[j-1]
+#             j -= 1
+
+#     return array
+# print(insertionSort([5,4,2,67,8]))
+
+# --------------------------------------------------------------
+
+# def insertionSort(array):
+#     for i in range(1, len(array)):
+#         j = i
+    
+#         while array[j-1] > array[j] and j > 0:
+#             array[j-1], array[j] = array[j], array[j-1]
+#             j -= 1
+
+#     return array
+# print(insertionSort([5,4,2,67,8]))
+
+# ----------------------------------------------------------------
+
+# def insertionSort(array):
+#     for i in range(len(array)):
+#         j = i
+
+#         while array[j-1] > array[j] and j > 0:
+#             array[j-1], array[j] = array[j], array[j-1]
+#             j -= 1
+        
+#     return array
+
+# print(insertionSort([6,3,8,3,2,1,0,0,4]))
+
+# --------------------------------------------------------------------
+
