@@ -40,7 +40,10 @@ I will try selection sort to end the day off
 Practice the same algorithms as yesterday, maybe in late afternoon get back on leetcode I think I can start doing array quesitons on leetcode. At least 1 and I will be happy !
 Did question 35, that was simple. Goal is to complete one tomorrow as well.
 Bubble sort today, tomorrow Quicksort is my goal too.
+Kanade's algorithm? What is that, is it well known
 
+        December 22nd:
+Create a script that closes everything
 
 
 
