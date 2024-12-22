@@ -65,3 +65,38 @@
 # print(bubbleSort([5,3,8,6,4]))
 
 # ----------------------------------------------------------------------------------
+# December 22nd, 2024
+
+# def bubbleSort(array):
+#     continuation = False
+
+#     while not continuation:
+#         continuation = True
+
+#         for i in range(len(array)-1):
+#             if array[i] > array[i+1]:
+#                 array[i], array[i+1] = array[i+1], array[i]
+#                 continuation = False
+    
+#     return array
+
+# print(bubbleSort([5,3,8,6,4]))
+
+# -----------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

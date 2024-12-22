@@ -83,3 +83,31 @@
 # print(selectionSort(listing))
 
 # ---------------------------------------------------------------------------------
+# December 22nd, 2024
+
+# def selectionSort(array):
+#     for i in range(len(array)-1):
+#         currentMinimum = i
+
+#         for j in range(i+1, len(array)):
+#             if array[j] < array[currentMinimum]:
+#                 array[j], array[currentMinimum] = array[currentMinimum], array[j]
+        
+#     return array
+
+# listing = [4,2,7,1,8,4,2,3,0,9,8]
+# print(selectionSort(listing))
+
+# -------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
