@@ -245,3 +245,36 @@ DELETE - O(1)
 
 # --------------------------------------------------------------------------------------------
 
+# class LinkedListNode():
+#     def __init__(self, value, next = None):
+#         self.value = value
+#         self.next = next
+
+# node1 = LinkedListNode(10)
+# node2 = LinkedListNode(20)
+# node3 = LinkedListNode(30)
+
+# node1.next = node2
+# node2.next = node3
+
+# currentNode = node1
+# listing = []
+
+# while currentNode:
+#     listing.append(currentNode.value)
+#     currentNode = currentNode.next
+
+# print(listing)
+
+# -------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+

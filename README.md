@@ -22,7 +22,7 @@ Binary search: Run time of O(log n), finds a position value in a sorted list or 
 
 TOMORROW SEARCH QUESTION 35
 
-bubble sort
+bubble sort !
 selection sort !
 insertion sort !
 merge sort !
@@ -43,8 +43,12 @@ Bubble sort today, tomorrow Quicksort is my goal too.
 Kanade's algorithm? What is that, is it well known
 
         December 22nd:
-Create a script that closes everything
+Working on Dutch national flag problem <-- Nice !
 
+        December 23rd:
+Woke up at 9:20 today, not good. Slept through alarms on purpose wasted so much time, especially since I have plans later today it's a write off :( Lets do our best !
+Something about a sliding window?
+Also futher practice on everything else.
 
 
 
@@ -58,3 +62,6 @@ Merge Sort
 Selection Sort
 Insertion Sort
 Bubble Sort
+Dutch national flag sorting
+
+Kadane's algorithm

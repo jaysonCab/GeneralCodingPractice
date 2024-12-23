@@ -84,14 +84,40 @@
 
 # -----------------------------------------------------------------------------------
 
+# def bubbleSort(array):
+#     continuous = False
 
+#     while not continuous:
+#         continuous = True
 
+#         for i in range(len(array)-1):
+#             if array[i] > array[i+1]:
+#                 continuous = False
+#                 array[i], array[i+1] = array[i+1], array[i]
 
+#     return array
 
+# print(bubbleSort([5,3,8,6,4]))
 
+# ------------------------------------------------------------------------------------------
+# December 23rd, 2024
 
+# def bubbleSort(array):
+#     done = False
 
+#     while not done:
+#         done = True
 
+#         for i in range(len(array)-1):
+#             if array[i] > array[i+1]:
+#                 done = False
+#                 array[i], array[i+1] = array[i+1], array[i]
+    
+#     return array
+
+# print(bubbleSort([5,3,8,6,4]))
+
+# ----------------------------------------------------------------------------------------
 
 
 
