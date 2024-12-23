@@ -50,7 +50,12 @@ Woke up at 9:20 today, not good. Slept through alarms on purpose wasted so much 
 Something about a sliding window?
 Also futher practice on everything else.
 
+So sets are O(1), thats pretty good. If the question asks, is this a new term? Normally I would append in a string, then check if X is in string. So instead, hashmap/lookup table O(1) nice.
+setting = set()
+dictionary = {}
 
+Tonight, learn sliding window for set size I guess.
+Then maybe tomorrow work on udnerstanding sets, memorize union, subtraction of a set, things like that
 
 -----------------------------------------------------------------------------------------
 Things I should know:
@@ -65,3 +70,7 @@ Bubble Sort
 Dutch national flag sorting
 
 Kadane's algorithm
+
+Sliding window of a variable sized array
+
+Set vs Dicitonary/Hashmap
