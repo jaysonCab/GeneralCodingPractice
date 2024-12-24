@@ -152,9 +152,30 @@
 # print(DNF([1,0,0,2,1,2,2, 1, 2]))
 
 # ----------------------------------------------------------------------------------------------
+# December 24th, 2024
 
+# def DNF(array):
+#     left = 0
+#     middle = 0
+#     right = len(array) - 1
 
+#     while middle <= right:
+#         match array[middle]:
+#             case 2:
+#                 array[middle], array[right] = array[right], array[middle]
+#                 right -= 1
+#             case 0:
+#                 array[middle], array[left] = array[left], array[middle]
+#                 left += 1
+#                 middle += 1
+#             case 1:
+#                 middle += 1
+    
+#     return array
 
+# print(DNF([1,0,0,2,1,2,2, 1, 2]))
+
+# -----------------------------------------------------------------------------------------------
 
 
 

@@ -121,3 +121,110 @@ So I guess kadanes algorithm can be considered an array sliding window problem
 # print(greatestSegment(string))
 
 # -----------------------------------------------------------------------------------------------
+
+# def slidingWindow(array):
+#     left = 0
+#     maxTotal = 0
+#     sett = set()
+
+#     for right in range(len(array)):
+#         while array[right] in sett:
+#             sett.remove(array[left])
+#             left += 1
+        
+#         currentTotal = right - left + 1
+#         maxTotal = max(currentTotal, maxTotal)
+#         sett.add(array[right])
+
+#     return maxTotal
+
+# string = "pwwkew"
+# print(slidingWindow(string))
+
+# ------------------------------------------------------------------------------------------------
+# December 24th, 2024
+
+# def slidingWindow(array):
+#     left = 0
+#     maxTotal = 0
+#     sett = set()
+
+#     for right in range(len(array)):
+#         while array[right] in sett:
+#             sett.remove(array[left])
+#             left += 1
+
+#         currentTotal = right - left + 1
+#         maxTotal = max(currentTotal, maxTotal)
+#         sett.add(array[right])
+
+#     return maxTotal
+
+# string = "pwwkew"
+# print(slidingWindow(string))
+
+# ------------------------------------------------------------------------------------------------
+
+# def slidingWindow(array):
+#     left = 0
+#     maxTotal = float('-inf')
+#     sett = set()
+
+#     for right in range(len(array)):
+#         while array[right] in sett:
+#             sett.remove(array[left])
+#             left += 1
+
+#         currentTotal = right - left + 1
+#         maxTotal = (currentTotal, maxTotal)
+#         sett.add(array[right])
+
+#     return maxTotal        
+
+# -------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# -------------------------------------------------------------------------------------------------
+
+'''
+PREVIOUS WAS WITH A VARIABLE LENGTH WINDOW
+THIS IS WITH A CONSTANT WINDOW
+'''
+
+# -------------------------------------------------------------------------------------------------
+# December 24th, 2024
+
+# def slidingWindow(nums, k):
+#     total = 0
+
+#     for i in range(k):
+#         total += nums[i]
+
+#     maxAverage = total / k
+
+#     for i in range(k, len(nums)):
+#         total += nums[i]
+#         total -= nums[i-k]
+
+#         average = total / k
+#         maxAverage = max(average, maxAverage)
+
+#     return maxAverage
+
+# nums = [1,12,-5,-6,50,3]
+# k = 4
+# print(slidingWindow(nums,k))
+
+# ----------------------------------------------------------------------------------------
