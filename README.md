@@ -57,6 +57,11 @@ dictionary = {}
 Tonight, learn sliding window for set size I guess.
 Then maybe tomorrow work on udnerstanding sets, memorize union, subtraction of a set, things like that
 
+        December 24th, 2024
+Dang, I keep messing up some of the simple sorts. Even Kadane and sliding window forget sometimes. Not good ! Just have to keep practicing the same stuff, all good. Worked on set sizes of sliding windows. Maybe I will do some set work rn since I wrote it yesterday.
+The next on the list is two pointer, I think I've done questions like this already but its fine. Tomorrow is Christmas but I will still probbaly work on it.
+Cool, 977 is a two pointer problem. I think two pointer problems are super cool !
+
 -----------------------------------------------------------------------------------------
 Things I should know:
 

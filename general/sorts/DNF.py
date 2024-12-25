@@ -177,8 +177,30 @@
 
 # -----------------------------------------------------------------------------------------------
 
+# def DNF(array):
+#     lowPosition = 0
+#     midPoisition = 0
+#     highPosition = len(array) - 1
 
+#     while midPoisition <= highPosition:
+#         match array[midPoisition]:
+#             case 2:
+#                 array[midPoisition], array[highPosition] = array[highPosition], array[midPoisition]
+#                 highPosition -= 1
 
+#             case 0:
+#                 array[midPoisition], array[lowPosition] = array[lowPosition], array[midPoisition]
+#                 midPoisition += 1
+#                 lowPosition += 1
+
+#             case 1:
+#                 midPoisition += 1
+
+#     return array
+
+# print(DNF([1,0,0,2,1,2,2, 1, 2]))
+
+# -------------------------------------------------------------------------------------------
 
 
 

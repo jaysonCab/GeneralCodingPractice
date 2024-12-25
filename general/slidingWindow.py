@@ -167,7 +167,7 @@ So I guess kadanes algorithm can be considered an array sliding window problem
 
 # def slidingWindow(array):
 #     left = 0
-#     maxTotal = float('-inf')
+#     maxTotal = 0
 #     sett = set()
 
 #     for right in range(len(array)):
@@ -183,7 +183,24 @@ So I guess kadanes algorithm can be considered an array sliding window problem
 
 # -------------------------------------------------------------------------------------------
 
+# def slidingWindow(array):
+#     left = 0
+#     maxTotal = 0
+#     sett = set()
 
+#     for right in range(len(array)):
+#         while array[right] in sett:
+#             sett.remove(array[left])
+#             left += 1
+
+#         currentTotal = right - left + 1
+#         maxTotal = max(currentTotal, maxTotal)
+#         sett.add(array[right])
+
+#     return maxTotal
+
+# string = "pwwkew"
+# print(slidingWindow(string))
 
 
 
@@ -228,3 +245,27 @@ THIS IS WITH A CONSTANT WINDOW
 # print(slidingWindow(nums,k))
 
 # ----------------------------------------------------------------------------------------
+
+# def slidingWindow(nums, k):
+#     total = 0
+
+#     for i in range(k):
+#         total += nums[i]
+
+#     maxAverage = float(total / k)
+
+#     for i in range(k, len(nums)):
+#         total += nums[i]
+#         total -= nums[i-k]
+
+#         average = float(total / k)
+
+#         maxAverage = max(average, maxAverage)
+
+#     return maxAverage
+
+# nums = [1,12,-5,-6,50,3]
+# k = 4
+# print(slidingWindow(nums,k))
+
+# ------------------------------------------------------------------------------------------------
