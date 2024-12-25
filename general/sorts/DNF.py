@@ -202,6 +202,36 @@
 
 # -------------------------------------------------------------------------------------------
 
+# def DNF(array):
+#     lowPointer = 0
+#     midPointer = 0
+#     highPointer = len(array) - 1
+
+#     while midPointer <= highPointer:
+#         match array[midPointer]:
+#             case 2:
+#                 array[midPointer], array[highPointer] = array[highPointer], array[midPointer]
+#                 highPointer -= 1
+
+#             case 0:
+#                 array[midPointer], array[lowPointer] = array[lowPointer], array[midPointer]
+#                 midPointer += 1
+#                 lowPointer += 1
+            
+#             case 1:
+#                 midPointer += 1
+
+#     return array
+
+# print(DNF([1,0,0,2,1,2,2, 1, 2]))
+
+# -------------------------------------------------------------------------------------------
+
+
+
+
+
+
 
 
 
