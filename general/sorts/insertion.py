@@ -206,8 +206,21 @@
 # print(insertionSort([6,3,8,3,2,1,0,0,4]))
 
 # --------------------------------------------------------------------------------------------
+# December 25th, 2024
 
+# def insertionSort(array):
+#     for i in range(1, len(array)):
+#         j = i
 
+#         while array[j] < array[j-1] and j > 0:
+#             array[j], array[j-1] = array[j-1], array[j]
+#             j -= 1
+
+#     return array
+
+# print(insertionSort([6,3,8,3,2,1,0,0,4]))
+
+# ---------------------------------------------------------------------------------------------
 
 
 

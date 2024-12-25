@@ -62,6 +62,9 @@ Dang, I keep messing up some of the simple sorts. Even Kadane and sliding window
 The next on the list is two pointer, I think I've done questions like this already but its fine. Tomorrow is Christmas but I will still probbaly work on it.
 Cool, 977 is a two pointer problem. I think two pointer problems are super cool !
 
+        December 25th, 2024
+I think I got everything down pat, I will still practice it for sure though. I think Ive worked on many linear traversal problems this whole time, I will go onto rotation of arrays and strings should be easy.
+
 -----------------------------------------------------------------------------------------
 Things I should know:
 
@@ -76,6 +79,6 @@ Dutch national flag sorting
 
 Kadane's algorithm
 
-Sliding window of a variable sized array
+Sliding window of a variable sized array + fixed size
 
 Set vs Dicitonary/Hashmap

@@ -382,10 +382,34 @@
 # print(shink[nice])
 
 # -----------------------------------------------------------------------------------------------
+# December 25th, 2024
 
+# def binarySearch(array, target):
+#     left = 0
+#     right = len(array) - 1
 
+#     while left <= right:
+#         midpoint = left + (right - left) // 2
+#         midpointValue = array[midpoint]
 
+#         if midpointValue == target:
+#             return midpoint
 
+#         elif target < midpointValue:
+#             right = midpoint - 1
+
+#         else:
+#             left = midpoint + 1
+
+#     return -1
+
+# shink = [1,2,3,4,5,6,7,8,9,10]
+# glonk = 7
+# nice = binarySearch(shink,glonk)
+# print(nice)
+# print(shink[nice])
+
+# ------------------------------------------------------------------------------------------
 
 
 

@@ -181,12 +181,25 @@
 # print(kadane(test_array))
 
 # ---------------------------------------------------------------------------------------------
+# December 25th, 2024
 
+# def kadane(array):
+#     maxTotal = float('-inf')
+#     currentTotal = 0
 
+#     for i in range(len(array)):
+#         currentTotal += array[i]
+#         maxTotal = max(maxTotal, currentTotal)
 
+#         if currentTotal < 0:
+#             currentTotal = 0
 
+#     return maxTotal
 
+# test_array = [-2, 3, -1, 2, -3, 5, -2, 4, -1, 6]
+# print(kadane(test_array))
 
+# -------------------------------------------------------------------------------------------
 
 
 
