@@ -67,6 +67,10 @@ I think I got everything down pat, I will still practice it for sure though. I t
 
 Theres a binary insertion sort which is just better than regular insertion sort apparently.
 
+        December 26th, 2024
+It might just be a quicksort angle learn later today. Im a bit busy today though, I have work so past 1 is when I can get started. It's 7:00am, I will just practice what I already learned and quicksort later. Maybe I can get radix sort done today too ? We will see.
+
+
 -----------------------------------------------------------------------------------------
 Things I should know:
 

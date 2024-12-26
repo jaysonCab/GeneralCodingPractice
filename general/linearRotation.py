@@ -71,10 +71,33 @@
 # print(rightRotation(nums, k))
 
 # --------------------------------------------------------------------------------------------
+# December 26th, 2024
 
+# def rightRotation(array, k):
+#     k %= len(array)
 
+#     def rotation(left, right):
+#         while left < right:
+#             array[left], array[right] = array[right], array[left]
+#             left += 1
+#             right -= 1
 
+#     left, right = 0, len(array)-1
+#     rotation(left, right)
 
+#     left, right = 0, k-1
+#     rotation(left, right)
+
+#     left, right = k, len(array)-1
+#     rotation(left,right)
+
+#     return array
+
+# nums = [1,2,3,4,5]
+# k = 2
+# print(rightRotation(nums, k))
+
+# -----------------------------------------------------------------------------------------------
 
 
 
@@ -167,6 +190,32 @@ Left Rotation Below
 # print(leftRotation(nums, k))
 
 # -------------------------------------------------------------------------------------------
+
+# def leftRotation(nums, k):
+#     k %= len(nums)
+
+#     def reverse(left, right):
+#         while left < right:
+#             nums[left], nums[right] = nums[right], nums[left]
+#             left += 1
+#             right -= 1
+
+#     left, right = 0, k - 1
+#     reverse(left, right)
+
+#     left, right = k, len(nums) - 1
+#     reverse(left, right)
+
+#     left, right = 0, len(nums) - 1
+#     reverse(left, right)
+
+#     return nums
+
+# nums = [1,2,3,4,5]
+# k = 5
+# print(leftRotation(nums, k))
+
+# ---------------------------------------------------------------------------------------------
 
 
 
