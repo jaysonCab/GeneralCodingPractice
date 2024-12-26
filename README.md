@@ -65,6 +65,8 @@ Cool, 977 is a two pointer problem. I think two pointer problems are super cool 
         December 25th, 2024
 I think I got everything down pat, I will still practice it for sure though. I think Ive worked on many linear traversal problems this whole time, I will go onto rotation of arrays and strings should be easy.
 
+Theres a binary insertion sort which is just better than regular insertion sort apparently.
+
 -----------------------------------------------------------------------------------------
 Things I should know:
 
