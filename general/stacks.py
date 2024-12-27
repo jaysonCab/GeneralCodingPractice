@@ -58,6 +58,13 @@ To fix this, try and from collections import deque
 
 # print(list(data))
 
+# December 27th, 2024 | I just want to pop from the front again
+queue = [1,2,3,4]
+nice = queue.pop(0)
+
+print(nice)
+print(queue)
+
 # CUSTOM STACK AND QUEUE CLASSES -----------------------------------------------------------------
 '''
 Simple class and object creation
