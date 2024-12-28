@@ -75,6 +75,10 @@ Mmm, quick sort requires recursion, I am not too understanding of it yet maybe I
         December 27th, 2024
 Recursion eh? Hard concept, idk how to practice it well.
 
+        December 28th, 2024
+I have kind of slowed down, this recustion topic is getting harder.
+https://www.youtube.com/watch?v=_-2u4EPHD88&list=PLDzeHZWIZsTqBmRGnsCOGNDG5FY0G04Td&index=1&ab_channel=CodeHelp-byBabbar
+I'll start with this series to understand it better
 
 
 -----------------------------------------------------------------------------------------
