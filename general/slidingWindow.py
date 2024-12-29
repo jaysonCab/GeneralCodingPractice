@@ -268,6 +268,31 @@ So I guess kadanes algorithm can be considered an array sliding window problem
 # print(slidingWindow(string))
 
 # ---------------------------------------------------------------------------------------------
+# December 29th, 2024
+
+# def slidingWindow(array):
+#     left = 0
+#     maxTotal = 0
+#     sett = set()
+
+#     for right in range(len(array)):
+#         while array[right] in sett:
+#             sett.remove(array[left])
+#             left += 1
+
+#         currentTotal = right - left + 1
+#         maxTotal = max(currentTotal, maxTotal)
+#         sett.add(array[right])
+
+#     return maxTotal
+
+# string = "bcabbbb"
+# print(slidingWindow(string))
+
+# ------------------------------------------------------------------------------------------------
+
+
+
 
 
 

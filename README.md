@@ -80,6 +80,10 @@ I have kind of slowed down, this recustion topic is getting harder.
 https://www.youtube.com/watch?v=_-2u4EPHD88&list=PLDzeHZWIZsTqBmRGnsCOGNDG5FY0G04Td&index=1&ab_channel=CodeHelp-byBabbar
 I'll start with this series to understand it better
 
+        December 29th, 2024
+Recursive backtracking? I've never heard of this term before.
+Ah, it's difficult. I think I will take the approach, learn the things I want to. I will learn trees next
+
 
 -----------------------------------------------------------------------------------------
 Things I should know:
