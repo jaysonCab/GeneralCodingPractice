@@ -129,3 +129,10 @@ Placing a variable with an underscore means it is meant to be private
 # print(postfix('23*54*+9-'))
 
 # ------------------------------------------------------------------------------------
+
+# array = [10,20,30]
+# for i in range(len(array)-1, -1, -1):
+#     print(array[i])
+
+# ------------------------------------------------------------------------------------
+
