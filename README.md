@@ -84,6 +84,11 @@ I'll start with this series to understand it better
 Recursive backtracking? I've never heard of this term before.
 Ah, it's difficult. I think I will take the approach, learn the things I want to. I will learn trees next
 
+        December 30th, 2024
+Infix --> Regular bedmas layout of equation or expressions | Operand, operator, operand a + b * c
+Pretfix --> Operator is before two operands | operator, operand, operand + a * bc
+Postfix --> Operator is after two operands | operand, operand, operator abc *+
+
 
 -----------------------------------------------------------------------------------------
 Things I should know:

@@ -59,11 +59,11 @@ To fix this, try and from collections import deque
 # print(list(data))
 
 # December 27th, 2024 | I just want to pop from the front again
-queue = [1,2,3,4]
-nice = queue.pop(0)
+# queue = [1,2,3,4]
+# nice = queue.pop(0)
 
-print(nice)
-print(queue)
+# print(nice)
+# print(queue)
 
 # CUSTOM STACK AND QUEUE CLASSES -----------------------------------------------------------------
 '''
@@ -96,3 +96,36 @@ Placing a variable with an underscore means it is meant to be private
 # element = stack1.pop()
 
 # print(element)
+
+# ------------------------------------------------------------------------------------------
+# December 30th, 2024
+
+# Postfix and Prefix
+
+# def calculate(num1, num2, operator):
+#     match operator:
+#         case '*':
+#             return num1 * num2
+#         case '-':
+#             return num1 - num2
+#         case '+':
+#             return num1 + num2
+#         case '/':
+#             return num1 / num2
+
+# def postfix(string):
+#     stack = []
+#     for i in range(len(string)):
+#         if string[i] not in {'*', '-', '+', '/'}:
+#             stack.append(string[i])
+#         else:
+#             number2 = stack.pop()
+#             number1 = stack.pop()
+#             result = calculate(int(number1), int(number2), string[i])
+#             stack.append(result)
+
+#     return stack[0]
+
+# print(postfix('23*54*+9-'))
+
+# ------------------------------------------------------------------------------------
