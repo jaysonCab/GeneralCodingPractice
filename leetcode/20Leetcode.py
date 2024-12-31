@@ -68,3 +68,35 @@ class Solution:
 
         return True
                 
+
+# ---------------------------------------------------------------------------------------
+# December 31st, 2024
+
+class Solution:
+    def isValid(self, s: str) -> bool:
+
+        if len(s) == 0 or len(s) == 1:
+            return False
+
+        dictionary = {
+            ')': '(',
+            '}': '{',
+            ']': '['
+        }
+        
+        stack = ''
+
+        for item in s:
+            if item in {'(', '{', '['}:
+                stack += item
+
+            else:
+                if stack[-1] != dictionary[item]:
+                    return False
+                else:
+                    stack = stack[:-1]
+        
+        if len(stack) != 0:
+            return False
+
+        return True

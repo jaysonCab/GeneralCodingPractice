@@ -86,8 +86,11 @@ Ah, it's difficult. I think I will take the approach, learn the things I want to
 
         December 30th, 2024
 Infix --> Regular bedmas layout of equation or expressions | Operand, operator, operand a + b * c
-Pretfix --> Operator is before two operands | operator, operand, operand + a * bc
-Postfix --> Operator is after two operands | operand, operand, operator abc *+
+Pretfix --> Operator is before two operands | operator, operand, operand + a * bc --> Read from right to left
+Postfix --> Operator is after two operands | operand, operand, operator abc *+ --> Read from left to right
+
+        December 31st, 2024
+No ! Today I watch videos on matricies, doing binary search on a matrix is something on the list
 
 
 -----------------------------------------------------------------------------------------

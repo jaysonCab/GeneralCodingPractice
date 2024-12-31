@@ -33,3 +33,20 @@
 # print(array)
 
 # -------------------------------------------------------------------------
+# December 30th, 2024
+
+# string = '2 23 * 5 4 * + 9 -'
+# array = string.split(' ')
+# print(array)
+
+# -------------------------------------------------------------------------
+
+stack = 'abcde'
+print(stack[:-1])
+
+dictionary = {
+    ')': '('
+}
+sett = ')'
+for i in range(1):
+    print(dictionary[sett[i]])
