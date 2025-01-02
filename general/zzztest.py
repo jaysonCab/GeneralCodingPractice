@@ -41,12 +41,36 @@
 
 # -------------------------------------------------------------------------
 
-stack = 'abcde'
-print(stack[:-1])
+# stack = 'abcde'
+# print(stack[:-1])
 
-dictionary = {
-    ')': '('
-}
-sett = ')'
-for i in range(1):
-    print(dictionary[sett[i]])
+# dictionary = {
+#     ')': '('
+# }
+# sett = ')'
+# for i in range(1):
+#     print(dictionary[sett[i]])
+
+# -------------------------------------------------------------------------------------------------------
+# January 2nd, 2024
+
+# from collections import Counter
+
+# def is_permutation(s1, s2):
+#     if len(s1) != len(s2):
+#         return False
+#     if Counter(s1) == Counter(s2):
+#         return True
+#     else:
+#         return False
+
+# # Test
+# print(is_permutation("abc", "cab"))  # True
+# print(is_permutation("abc", "def"))  # False
+
+string = 'abc'
+string = string[1:]
+print(string)
+string2 = 'abcdefg'
+for i in range(len(string), len(string2)):
+    print(string2[i])
