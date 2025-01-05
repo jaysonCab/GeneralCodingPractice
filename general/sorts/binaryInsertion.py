@@ -183,7 +183,28 @@
 # print(binaryInsertionSort([6,3,8,3,1,6]))
 
 # ---------------------------------------------------------------------------------------------
+# January 4th, 2024
 
+# def binaryInsertionSort(array):
+
+#     def binarySearch(left, right, target):
+#         while left < right:
+#             midpoint = left + (right - left) // 2
+#             midpointValue = array[midpoint]
+
+#             if target < midpointValue:
+#                 right = midpoint - 1
+            
+#             else:
+#                 left = midpoint + 1
+        
+#         return left
+
+#     for i in range(1, len(array)):
+#         target = array[i]
+#         position = binarySearch()
+
+# ----------------------------------------------------------------------------------------------
 
 
 

@@ -278,10 +278,30 @@
 # print(DNF([1,0,0,2,1,2,2, 1, 2]))
 
 # ----------------------------------------------------------------------------------------
+# January 4th, 2024
 
+# def DNF(array):
+#     lowPosition = 0
+#     midPosition = 0
+#     highPosition = len(array) - 1
 
+#     while midPosition < highPosition:
+#         match array[midPosition]:
+#             case 2:
+#                 array[midPosition], array[highPosition] = array[highPosition], array[midPosition]
+#                 highPosition -= 1
+#             case 0:
+#                 array[midPosition], array[lowPosition] = array[lowPosition], array[midPosition]
+#                 lowPosition += 1
+#                 midPosition += 1
+#             case 1:
+#                 midPosition += 1
 
+#     return array
 
+# print(DNF([1,0,0,2,1,2,2, 1, 2]))
+
+# -------------------------------------------------------------------------------------------------
 
 
 
