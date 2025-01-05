@@ -219,7 +219,19 @@
 # print(kadane(test_array))
 
 # --------------------------------------------------------------------------------------------
+# January 5th, 2024
 
+def kadane(array):
+    left = 0
+    maxTotal = float('-inf')
+    sett = set()
+
+    for right in range(len(array)):
+        while array[right] in sett:
+            sett.remove(array[left])
+            left += 1
+
+        currentTotal = 
 
 
 
