@@ -291,18 +291,110 @@ DELETE - O(1)
 # print(listing)
 
 # -------------------------------------------------------------------------------------------
+# January 6th, 2025
 
+# SORTING A LINKED LIST
+# class LinkedListNode():
+#     def __init__(self, value, next = None):
+#         self.value = value
+#         self.next = next
 
+# node1 = LinkedListNode(5)
+# node2 = LinkedListNode(1)
+# node3 = LinkedListNode(8)
 
+# current = node1
 
+# node1.next = node2
+# node2.next = node3
+# array = []
 
+# while current:
+#     array.append(current.value)
+#     current = current.next
 
+# def mergeSort(array):
+#     if len(array) > 1:
+#         left = array[:len(array)//2]
+#         right = array[len(array)//2:]
 
+#         mergeSort(left)
+#         mergeSort(right)
 
+#         i = 0
+#         j = 0
+#         k = 0
 
+#         while i < len(left) and j < len(right):
+#             if left[i] < right[j]:
+#                 array[k] = left[i]
+#                 i += 1
+#             else:
+#                 array[k] = right[j]
+#                 j += 1
+#             k += 1
 
+#         while i < len(left):
+#             array[k] = left[i]
+#             i += 1
+#             k += 1
+        
+#         while j < len(right):
+#             array[k] = right[j]
+#             j += 1
+#             k += 1
+        
+#         return array
 
+# sortedArray = mergeSort(array)
+# current = node1
 
+# i = 0
+# while current:
+#     current.value = sortedArray[i]
+#     i += 1
+#     current = current.next
+# current = node1
+
+# while current:
+#     print(current.value)
+#     current = current.next
+
+# -------------------------------------------------------------------------------------------------------------------
+
+# SORTING A LINKED LIST
+class LinkedListNode():
+    def __init__(self, value, next = None):
+        self.value = value
+        self.next = next
+
+node1 = LinkedListNode(5)
+node2 = LinkedListNode(1)
+node3 = LinkedListNode(8)
+
+current = node1
+
+node1.next = node2
+node2.next = node3
+array = []
+
+while current:
+    array.append(current.value)
+    current = current.next
+
+array.sort()
+current = node1
+
+i = 0
+while current:
+    current.value = array[i]
+    i += 1
+    current = current.next
+current = node1
+
+while current:
+    print(current.value)
+    current = current.next
 
 
 
