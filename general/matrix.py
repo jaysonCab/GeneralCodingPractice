@@ -28,17 +28,17 @@ import numpy as np
 # Multiplication is different, you take the rows of the first matrix and multiply by the column of matrix b
 # print(matrixA.dot(matrixB))
 
-# A = np.array([
-#     [2,3],
-#     [1,4]
-# ])
+A = np.array([
+    [1,2,3]
+])
 
-# B = np.array([
-#     [3,2],
-#     [1,-6]
-# ])
+B = np.array([
+    [1],
+    [2],
+    [3]
+])
 
-# print(A.dot(B))
+print(A.dot(B))
 
 # A = np.array([
 #     [3,1,4]

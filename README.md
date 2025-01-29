@@ -92,7 +92,8 @@ Postfix --> Operator is after two operands | operand, operand, operator abc *+ -
         December 31st, 2024
 No ! Today I watch videos on matricies, doing binary search on a matrix is something on the list
 
-
+        January 28th, 2025
+I want to work more on classes and objects in regards to API calls
 -----------------------------------------------------------------------------------------
 Things I should know:
 

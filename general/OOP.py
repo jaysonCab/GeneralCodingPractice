@@ -92,3 +92,49 @@ If no __init__, they are just regular methods
 
 # bank1 = banking()
 # bank1.addition(900)
+
+# -------------------------------------------------------
+# January 28th, 2025
+# from dataclasses import dataclass
+
+# @dataclass
+# class ElementumFile:
+#     """
+#     Dataclass for metadata of the file to be transferred
+#     """
+#     Title: str
+#     po_num: str
+#     documentType: str
+#     req_num: str
+#     file: object
+
+
+# def APItest(SOWCreateExample):
+#     print(SOWCreateExample.req_num)
+#     pass
+
+# fileSend1 = ElementumFile(123, 'PoNumber', 'SOW', '123', None)
+# APItest(fileSend1)
+# print(fileSend1)
+
+# class ElementumFile1:
+#     def __init__(self, Title: str, PoNumber):
+#         self.Title = Title
+#         self.PoNumber = PoNumber
+        
+
+# fileSend1 = ElementumFile1(123, 'Number')
+
+# print(type(fileSend1.Title))
+
+# import requests
+# def retro(title:str, poNum:str) -> requests.Response:
+
+# class checkers():
+#     def __init__(self, intro):
+#         self.intro = intro
+
+#     def bark(self):
+#         print('BARK')
+
+# check1 = checkers()
