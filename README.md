@@ -94,6 +94,10 @@ No ! Today I watch videos on matricies, doing binary search on a matrix is somet
 
         January 28th, 2025
 I want to work more on classes and objects in regards to API calls
+
+        February 15th, 2025
+Freshened up in coding for a bit, should get back to it eh
+
 -----------------------------------------------------------------------------------------
 Things I should know:
 
