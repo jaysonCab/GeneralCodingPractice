@@ -43,3 +43,26 @@ class Solution:
             sett.add(s[right]) 
 
         return currentMax
+    
+# ------------------------------------------------------------------------------------------------
+# February 15th, 2025
+# Personal solution
+
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        sett = set()
+        left = 0
+        right = 0
+        count = 0
+
+        while right < len(s):
+            if s[right] not in sett:
+                sett.add(s[right])
+                right += 1
+            else:
+                sett.remove(s[left])
+                left += 1
+                
+            count = max(len(sett),count)
+
+        return count

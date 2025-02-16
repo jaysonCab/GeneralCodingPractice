@@ -68,9 +68,19 @@
 # print(is_permutation("abc", "cab"))  # True
 # print(is_permutation("abc", "def"))  # False
 
-string = 'abc'
-string = string[1:]
-print(string)
-string2 = 'abcdefg'
-for i in range(len(string), len(string2)):
-    print(string2[i])
+# string = 'abc'
+# string = string[1:]
+# print(string)
+# string2 = 'abcdefg'
+# for i in range(len(string), len(string2)):
+#     print(string2[i])
+
+# ----------------------------------------------------------------------------------------------------------------
+# February 15th, 2025
+
+diction = {
+    "apple": 2,
+    "pear": 3
+}
+
+print(diction["apple"] + diction["pear"])
