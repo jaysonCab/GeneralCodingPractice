@@ -136,3 +136,8 @@ Placing a variable with an underscore means it is meant to be private
 
 # ------------------------------------------------------------------------------------
 
+# stack = [1,2,3]
+# stack.append(4)
+
+# nice = stack.pop(0)
+# print(nice)

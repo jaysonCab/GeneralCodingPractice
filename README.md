@@ -98,20 +98,9 @@ I want to work more on classes and objects in regards to API calls
         February 15th, 2025
 Freshened up in coding for a bit, should get back to it eh
 
------------------------------------------------------------------------------------------
-Things I should know:
-
-Linked List
-
-Binary Search
-Merge Sort
-Selection Sort
-Insertion Sort
-Bubble Sort
-Dutch national flag sorting
-
-Kadane's algorithm
-
-Sliding window of a variable sized array + fixed size
-
-Set vs Dicitonary/Hashmap
+        February 23rd, 2025
+Attempting to create a local virtual environment
+python3 -m venv venv
+source TestEnv/bin/activate
+pip install -r requirements.txt
+deactivate
