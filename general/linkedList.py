@@ -363,39 +363,54 @@ DELETE - O(1)
 # -------------------------------------------------------------------------------------------------------------------
 
 # SORTING A LINKED LIST
-class LinkedListNode():
+# class LinkedListNode():
+#     def __init__(self, value, next = None):
+#         self.value = value
+#         self.next = next
+
+# node1 = LinkedListNode(5)
+# node2 = LinkedListNode(1)
+# node3 = LinkedListNode(8)
+
+# current = node1
+
+# node1.next = node2
+# node2.next = node3
+# array = []
+
+# while current:
+#     array.append(current.value)
+#     current = current.next
+
+# array.sort()
+# current = node1
+
+# i = 0
+# while current:
+#     current.value = array[i]
+#     i += 1
+#     current = current.next
+# current = node1
+
+# while current:
+#     print(current.value)
+#     current = current.next
+
+# ------------------------- May 31st, 2025
+class linkedListNode():
     def __init__(self, value, next = None):
         self.value = value
         self.next = next
 
-node1 = LinkedListNode(5)
-node2 = LinkedListNode(1)
-node3 = LinkedListNode(8)
+node1 = linkedListNode(3)
+node2 = linkedListNode(5)
+node3 = linkedListNode(19)
 
 current = node1
 
 node1.next = node2
 node2.next = node3
-array = []
-
-while current:
-    array.append(current.value)
-    current = current.next
-
-array.sort()
-current = node1
-
-i = 0
-while current:
-    current.value = array[i]
-    i += 1
-    current = current.next
-current = node1
 
 while current:
     print(current.value)
     current = current.next
-
-
-
-
